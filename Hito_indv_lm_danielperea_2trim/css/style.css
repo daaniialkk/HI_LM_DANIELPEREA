@@ -1,0 +1,13 @@
+.tablalista1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(69, 165, 255);
+}
+
+.tablalista1 table{
+    background-color: cyan;
+    font-size: medium;
+    font-family: sans-serif;
+    border: 3px solid rgb(25, 146, 106)
+}

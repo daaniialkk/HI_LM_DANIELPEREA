@@ -1,0 +1,2141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-stylesheet href="xsl1.xsl" type="text/xsl"?>-->
+<?xml-stylesheet href="xsl2.xsl" type="text/xsl"?> 
+<?xml-stylesheet href="xsl3.xsl" type="text/xsl"?> 
+<?xml-stylesheet href="xsl4.xsl" type="text/xsl"?>
+<facturacion>
+    <anyos>
+        <anyo2021 num='2021'>
+            <trimestres>
+                <trimestre1 id='TRIM__1'>
+                    <clientes>
+                        <cliente1 id='CL_1'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>ortiz martin</apellidos>
+                                <telefono>123456</telefono>
+                                <direccion>
+                                    <calle>lope de vega</calle>
+                                    <ciudad>alcorcon</ciudad>
+                                    <cp>28922</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.ortiz@correo.es</correo>
+                                <fechaInclusion>14/07/2018</fechaInclusion>
+                            </infocliente>
+                             <pedidos1>
+                                <pedido1 id='PD_1'>
+                                <infoPedido>
+                                    <numPedido>23345</numPedido>
+                                    <fechaCompra>10/04/2021</fechaCompra>
+                                    <totalFactura>145</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>camiseta atletico de madrid</nombreProducto>
+                                        <referencia>REF-114</referencia>
+                                        <precio>145</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido1>
+                                <pedido id='PD_2'>
+                                <infoPedido>
+                                    <numPedido>23348</numPedido>
+                                    <fechaCompra>27/06/2021</fechaCompra>
+                                    <totalFactura>30</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>pantalon atletico de madrid</nombreProducto>
+                                        <referencia>REF-111</referencia>
+                                        <precio>30</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_3'>
+                                <infoPedido>
+                                    <numPedido>22234</numPedido>
+                                    <fechaCompra>30/07/2021</fechaCompra>
+                                    <totalFactura>19</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>medias atletico de madrid</nombreProducto>
+                                        <referencia>REF-123</referencia>
+                                        <precio>19</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos1>
+                        </cliente1>
+                        <cliente id='CL_2'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Perea Barrio</apellidos>
+                                <telefono>5646746744</telefono>
+                                <direccion>
+                                    <calle>Avenida boulevar</calle>
+                                    <ciudad>arroyomolinos</ciudad>
+                                    <cp>28938</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Daniel.perea@correo.es</correo>
+                                <fechaInclusion>05/01/2017</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_4'>
+                                <infoPedido>
+                                    <numPedido>57658</numPedido>
+                                    <fechaCompra>07/08/2021</fechaCompra>
+                                    <totalFactura>60</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>camiseta termica entrenamiento</nombreProducto>
+                                        <referencia>ref-7459</referencia>
+                                        <precio>60</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_5'>
+                                <infoPedido>
+                                    <numPedido>567567</numPedido>
+                                    <fechaCompra>09/09/2021</fechaCompra>
+                                    <totalFactura>35</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Pantalon termico entrenamiento</nombreProducto>
+                                        <referencia>ref-86758</referencia>
+                                        <precio>35</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_3'>                     
+                            <infocliente>
+                                <nombre>Sergio</nombre>
+                                <apellidos>Rodriguez Mayo</apellidos>
+                                <telefono>65743653</telefono>
+                                <direccion>
+                                    <calle>avenida poligono humanes</calle>
+                                    <ciudad>moraleja</ciudad>
+                                    <cp>28936</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>sergio.rodriguez@correo.es</correo>
+                                <fechaInclusion>16/01/2015</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_6'>
+                                <infoPedido>
+                                    <numPedido>14312313</numPedido>
+                                    <fechaCompra>21/03/2022</fechaCompra>
+                                    <totalFactura>109</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>mesa dj pioneer</nombreProducto>
+                                        <referencia>ref-23423</referencia>
+                                        <precio>109</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_4'>                     
+                            <infocliente>
+                                <nombre>Carlos</nombre>
+                                <apellidos>Poza Campoy</apellidos>
+                                <telefono>234523443</telefono>
+                                <direccion>
+                                    <calle>Calle alcobendas</calle>
+                                    <ciudad>Fuenlabrada</ciudad>
+                                    <cp>23454</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>carlos.poza@correo.es</correo>
+                                <fechaInclusion>25/09/2012</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_7'>
+                                <infoPedido>
+                                    <numPedido>365365</numPedido>
+                                    <fechaCompra>01/06/2022</fechaCompra>
+                                    <totalFactura>20</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Pod uva 1000 pufs</nombreProducto>
+                                        <referencia>ref-2345234</referencia>
+                                        <precio>10</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Pod fresa 1000 pufs</nombreProducto>
+                                        <referencia>ref-78657</referencia>
+                                        <precio>10</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_8'>
+                                <infoPedido>
+                                    <numPedido>2143133</numPedido>
+                                    <fechaCompra>26/06/2022</fechaCompra>
+                                    <totalFactura>50</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>base cachimba mklaud</nombreProducto>
+                                        <referencia>ref-234532</referencia>
+                                        <precio>50</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_5'>                     
+                            <infocliente>
+                                <nombre>Raul</nombre>
+                                <apellidos>Rodelgo Vazquez</apellidos>
+                                <telefono>6534563</telefono>
+                                <direccion>
+                                    <calle>Calle moraleja</calle>
+                                    <ciudad>Moraleja</ciudad>
+                                    <cp>28936</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>raul.rodelgo@correo.es</correo>
+                                <fechaInclusion>18/05/2022</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_9'>
+                                <infoPedido>
+                                    <numPedido>675464</numPedido>
+                                    <fechaCompra>11/06/2022</fechaCompra>
+                                    <totalFactura>250</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>cachimba wookah</nombreProducto>
+                                        <referencia>ref-756786</referencia>
+                                        <precio>250</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_10'>
+                                <infoPedido>
+                                    <numPedido>47654756</numPedido>
+                                    <fechaCompra>13/08/2021</fechaCompra>
+                                    <totalFactura>100</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>cachimba aladin</nombreProducto>
+                                        <referencia>ref-76578</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre1>
+                <trimestre id='TRIM__2'>
+                    <clientes>
+                        <cliente id='CL_1'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>ortiz martin</apellidos>
+                                <telefono>123456</telefono>
+                                <direccion>
+                                    <calle>lope de vega</calle>
+                                    <ciudad>alcorcon</ciudad>
+                                    <cp>28922</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.ortiz@correo.es</correo>
+                                <fechaInclusion>14/07/2018</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_11'>
+                                <infoPedido>
+                                    <numPedido>323456</numPedido>
+                                    <fechaCompra>05/01/2019</fechaCompra>
+                                    <totalFactura>100</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Balon oficial mundial qatar</nombreProducto>
+                                        <referencia>REF-167</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_12'>
+                                <infoPedido>
+                                    <numPedido>378987</numPedido>
+                                    <fechaCompra>14/03/2019</fechaCompra>
+                                    <totalFactura>140</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Botas de futbol adidas</nombreProducto>
+                                        <referencia>REF-187</referencia>
+                                        <precio>120</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Espinilleras futbol</nombreProducto>
+                                        <referencia>ref-190</referencia>
+                                        <precio>20</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_2'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Perea Barrio</apellidos>
+                                <telefono>5646746744</telefono>
+                                <direccion>
+                                    <calle>Avenida boulevar</calle>
+                                    <ciudad>arroyomolinos</ciudad>
+                                    <cp>28938</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Daniel.perea@correo.es</correo>
+                                <fechaInclusion>05/01/2017</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_13'>
+                                <infoPedido>
+                                    <numPedido>6875475</numPedido>
+                                    <fechaCompra>13/12/2021</fechaCompra>
+                                    <totalFactura>155</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Zapatillas nike deportivas</nombreProducto>
+                                        <referencia>ref-765786</referencia>
+                                        <precio>120</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Gafas deportivas</nombreProducto>
+                                        <referencia>ref-9786</referencia>
+                                        <precio>35</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_14'>
+                                <infoPedido>
+                                    <numPedido>87658</numPedido>
+                                    <fechaCompra>30/07/2021</fechaCompra>
+                                    <totalFactura>200</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>camiseta nba boston celtics</nombreProducto>
+                                        <referencia>ref-345</referencia>
+                                        <precio>200</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_15'>
+                                <infoPedido>
+                                    <numPedido>5678567</numPedido>
+                                    <fechaCompra>27/08/2021</fechaCompra>
+                                    <totalFactura>200</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>camiseta nba bulls</nombreProducto>
+                                        <referencia>ref-57857</referencia>
+                                        <precio>200</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_6'>                     
+                            <infocliente>
+                                <nombre>Lucia</nombre>
+                                <apellidos>Bello Caballero</apellidos>
+                                <telefono>56746545</telefono>
+                                <direccion>
+                                    <calle>Avenida leganes</calle>
+                                    <ciudad>Leganes</ciudad>
+                                    <cp>43656</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>lucia.bello@correo.es</correo>
+                                <fechaInclusion>09/09/2017</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_16'>
+                                <infoPedido>
+                                    <numPedido>5764674646</numPedido>
+                                    <fechaCompra>26/02/2021</fechaCompra>
+                                    <totalFactura>150</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>vestido fiesta rojo</nombreProducto>
+                                        <referencia>ref-2345634</referencia>
+                                        <precio>50</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Vestido corto negro </nombreProducto>
+                                        <referencia>ref-3456345</referencia>
+                                        <precio>50</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>chaqueta cuero</nombreProducto>
+                                        <referencia>ref-978687</referencia>
+                                        <precio>50</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_7'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Mier canorea</apellidos>
+                                <telefono>78658765</telefono>
+                                <direccion>
+                                    <calle>calle loranca</calle>
+                                    <ciudad>Loranca</ciudad>
+                                    <cp>65434</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>daniel.mier@correo.es</correo>
+                                <fechaInclusion>17/09/2020</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_17'>
+                                <infoPedido>
+                                    <numPedido>67556756</numPedido>
+                                    <fechaCompra>14/01/2022</fechaCompra>
+                                    <totalFactura>145</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>camiseta real betis</nombreProducto>
+                                        <referencia>ref-87657</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>pantalon real betis</nombreProducto>
+                                        <referencia>ref-867532</referencia>
+                                        <precio>45</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_8'>                     
+                            <infocliente>
+                                <nombre>Marcos</nombre>
+                                <apellidos>Vazquez garcia</apellidos>
+                                <telefono>897687556</telefono>
+                                <direccion>
+                                    <calle>Calle goya</calle>
+                                    <ciudad>parque coimbra</ciudad>
+                                    <cp>78456</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>marcos.vazquez@correo.es</correo>
+                                <fechaInclusion>18/07/2021</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_18'>
+                                <infoPedido>
+                                    <numPedido>09789678</numPedido>
+                                    <fechaCompra>12/12/2022</fechaCompra>
+                                    <totalFactura>500</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>capo tunned ford focus mk2</nombreProducto>
+                                        <referencia>ref-8756445</referencia>
+                                        <precio>300</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>recubre-volante</nombreProducto>
+                                        <referencia>ref-745656</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>Palanca de cambios custom</nombreProducto>
+                                        <referencia>ref-8976532341</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_19'>
+                                <infoPedido>
+                                    <numPedido>78453345</numPedido>
+                                    <fechaCompra>09/05/2021</fechaCompra>
+                                    <totalFactura>450</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>tubo de escape custom</nombreProducto>
+                                        <referencia>ref-546754357</referencia>
+                                        <precio>350</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>pegatinas para coche</nombreProducto>
+                                        <referencia>ref-9786</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_20'>
+                                <infoPedido>
+                                    <numPedido>587654</numPedido>
+                                    <fechaCompra>30/04/2021</fechaCompra>
+                                    <totalFactura>100</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>tapizado ford focus</nombreProducto>
+                                        <referencia>ref-45564456</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre>
+                <trimestre id='TRIM__3'>
+                    <clientes>
+                        <cliente id='CL_1'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>ortiz martin</apellidos>
+                                <telefono>123456</telefono>
+                                <direccion>
+                                    <calle>lope de vega</calle>
+                                    <ciudad>alcorcon</ciudad>
+                                    <cp>28922</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.ortiz@correo.es</correo>
+                                <fechaInclusion>14/07/2018</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_21'>
+                                <infoPedido>
+                                    <numPedido>3456</numPedido>
+                                    <fechaCompra>05/12/2020</fechaCompra>
+                                    <totalFactura>25</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>guantes deporte</nombreProducto>
+                                        <referencia>ref-456</referencia>
+                                        <precio>25</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_22'>
+                                <infoPedido>
+                                    <numPedido>445676</numPedido>
+                                    <fechaCompra>06/12/2020</fechaCompra>
+                                    <totalFactura>150</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>camiseta manchester city</nombreProducto>
+                                        <referencia>ref-678</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>pantalones manchester city</nombreProducto>
+                                        <referencia>ref-789</referencia>
+                                        <precio>50</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_23'>
+                                <infoPedido>
+                                    <numPedido>45784</numPedido>
+                                    <fechaCompra>19/11/2021</fechaCompra>
+                                    <totalFactura>70</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>medias manchester city</nombreProducto>
+                                        <referencia>ref-098</referencia>
+                                        <precio>35</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>guantes nike manchester city</nombreProducto>
+                                        <referencia>ref-876</referencia>
+                                        <precio>35</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_2'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Perea Barrio</apellidos>
+                                <telefono>5646746744</telefono>
+                                <direccion>
+                                    <calle>Avenida boulevar</calle>
+                                    <ciudad>arroyomolinos</ciudad>
+                                    <cp>28938</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Daniel.perea@correo.es</correo>
+                                <fechaInclusion>05/01/2017</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_24'>
+                                <infoPedido>
+                                    <numPedido>534</numPedido>
+                                    <fechaCompra>05/01/2021</fechaCompra>
+                                    <totalFactura>300</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>camiseta nba bucks edicion especial</nombreProducto>
+                                        <referencia>ref-785687</referencia>
+                                        <precio>300</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_25'>
+                                <infoPedido>
+                                    <numPedido>7858675</numPedido>
+                                    <fechaCompra>09/09/2021</fechaCompra>
+                                    <totalFactura>250</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>camiseta nba warriors retro</nombreProducto>
+                                        <referencia>ref-876578</referencia>
+                                        <precio>250</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_9'>                     
+                            <infocliente>
+                                <nombre>Fernando</nombre>
+                                <apellidos>Garcia</apellidos>
+                                <telefono>476534535</telefono>
+                                <direccion>
+                                    <calle>Calle aluche</calle>
+                                    <ciudad>aluche</ciudad>
+                                    <cp>675344</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>fernando.garcia@correo.es</correo>
+                                <fechaInclusion>31/01/2020</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_26'>
+                                <infoPedido>
+                                    <numPedido>548954</numPedido>
+                                    <fechaCompra>19/10/2022</fechaCompra>
+                                    <totalFactura>200</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>mando ps5</nombreProducto>
+                                        <referencia>ref-87646453</referencia>
+                                        <precio>60</precio>
+                                        <unidades>2</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>god of war</nombreProducto>
+                                        <referencia>ref-785467</referencia>
+                                        <precio>80</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_27'>
+                                <infoPedido>
+                                    <numPedido>45645323</numPedido>
+                                    <fechaCompra>25/06/2021</fechaCompra>
+                                    <totalFactura>800</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>PS5</nombreProducto>
+                                        <referencia>ref-456978</referencia>
+                                        <precio>800</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_10'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>Diez</apellidos>
+                                <telefono>5646523425</telefono>
+                                <direccion>
+                                    <calle>Avenida toledo</calle>
+                                    <ciudad>griñon</ciudad>
+                                    <cp>564356</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.diez@correo.es</correo>
+                                <fechaInclusion>23/11/2018</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_28'>
+                                <infoPedido>
+                                    <numPedido>789784562</numPedido>
+                                    <fechaCompra>21/11/2022</fechaCompra>
+                                    <totalFactura>120</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>elden ring</nombreProducto>
+                                        <referencia>ref-78564567</referencia>
+                                        <precio>60</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>fifa 23</nombreProducto>
+                                        <referencia>ref-876344526</referencia>
+                                        <precio>60</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_11'>                     
+                            <infocliente>
+                                <nombre>Pablo</nombre>
+                                <apellidos>Espinosa</apellidos>
+                                <telefono>0978565476</telefono>
+                                <direccion>
+                                    <calle>avenida orquesta</calle>
+                                    <ciudad>getafe</ciudad>
+                                    <cp>67534</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>pablo.espinosa@correo.es</correo>
+                                <fechaInclusion>09/12/2021</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_29'>
+                                <infoPedido>
+                                    <numPedido>756345</numPedido>
+                                    <fechaCompra>03/09/2021</fechaCompra>
+                                    <totalFactura>240</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>chandal completo nike tech negro</nombreProducto>
+                                        <referencia>ref-8764345</referencia>
+                                        <precio>120</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>chandal completo nike tech azul</nombreProducto>
+                                        <referencia>ref-8765674</referencia>
+                                        <precio>120</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_30'>
+                                <infoPedido>
+                                    <numPedido>7654345</numPedido>
+                                    <fechaCompra>03/01/2021</fechaCompra>
+                                    <totalFactura>140</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>nike jordan retro 4</nombreProducto>
+                                        <referencia>ref-567341234</referencia>
+                                        <precio>140</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre>
+                <trimestre id='TRIM__4'>
+                    <clientes>
+                        <cliente id='CL_1'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>ortiz martin</apellidos>
+                                <telefono>123456</telefono>
+                                <direccion>
+                                    <calle>lope de vega</calle>
+                                    <ciudad>alcorcon</ciudad>
+                                    <cp>28922</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.ortiz@correo.es</correo>
+                                <fechaInclusion>14/07/2018</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_31'>
+                                <infoPedido>
+                                    <numPedido>5654</numPedido>
+                                    <fechaCompra>11/11/2020</fechaCompra>
+                                    <totalFactura>150</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>camiseta jugador real madrid</nombreProducto>
+                                        <referencia>ref-592</referencia>
+                                        <precio>150</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_32'>
+                                <infoPedido>
+                                    <numPedido>757776</numPedido>
+                                    <fechaCompra>16/12/2021</fechaCompra>
+                                    <totalFactura>45</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>pantalon real madrid</nombreProducto>
+                                        <referencia>ref-826</referencia>
+                                        <precio>45</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                 <pedido id='PD_33'>
+                                <infoPedido>
+                                    <numPedido>78787</numPedido>
+                                    <fechaCompra>26/12/2021</fechaCompra>
+                                    <totalFactura>25</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>medias real madrid</nombreProducto>
+                                        <referencia>ref-7233</referencia>
+                                        <precio>25</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_2'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Perea Barrio</apellidos>
+                                <telefono>5646746744</telefono>
+                                <direccion>
+                                    <calle>Avenida boulevar</calle>
+                                    <ciudad>arroyomolinos</ciudad>
+                                    <cp>28938</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Daniel.perea@correo.es</correo>
+                                <fechaInclusion>05/01/2017</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_34'>
+                                <infoPedido>
+                                    <numPedido>90800</numPedido>
+                                    <fechaCompra>23/08/2021</fechaCompra>
+                                    <totalFactura>200</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>camiseta nba raptors</nombreProducto>
+                                        <referencia>ref-43523</referencia>
+                                        <precio>200</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_35'>
+                                <infoPedido>
+                                    <numPedido>123412</numPedido>
+                                    <fechaCompra>06/06/2020</fechaCompra>
+                                    <totalFactura>200</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>camiseta nba suns</nombreProducto>
+                                        <referencia>ref-3245645</referencia>
+                                        <precio>200</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_12'>                     
+                            <infocliente>
+                                <nombre>Rocio</nombre>
+                                <apellidos>Bello Caballero</apellidos>
+                                <telefono>786543456</telefono>
+                                <direccion>
+                                    <calle>Calle arturo soria</calle>
+                                    <ciudad>Leganes</ciudad>
+                                    <cp>675435</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>rocio.bello@correo.es</correo>
+                                <fechaInclusion>23/07/2022</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_36'>
+                                <infoPedido>
+                                    <numPedido>654236534</numPedido>
+                                    <fechaCompra>23/03/2022</fechaCompra>
+                                    <totalFactura>50</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>bronceador</nombreProducto>
+                                        <referencia>ref-89675786</referencia>
+                                        <precio>25</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>rimel london</nombreProducto>
+                                        <referencia>ref-875463</referencia>
+                                        <precio>25</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_37'>
+                                <infoPedido>
+                                    <numPedido>2341597565</numPedido>
+                                    <fechaCompra>23/07/2021</fechaCompra>
+                                    <totalFactura>100</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>sudadera nude project</nombreProducto>
+                                        <referencia>ref-90826315</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_13'>                     
+                            <infocliente>
+                                <nombre>sergio</nombre>
+                                <apellidos>rodriguez garcia</apellidos>
+                                <telefono>76557463265</telefono>
+                                <direccion>
+                                    <calle>Calle humanes</calle>
+                                    <ciudad>fuenlabrada</ciudad>
+                                    <cp>762345</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>sergio.rodriguez@correo.es</correo>
+                                <fechaInclusion>18/04/2022</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_38'>
+                                <infoPedido>
+                                    <numPedido>2346526345</numPedido>
+                                    <fechaCompra>31/03/2021</fechaCompra>
+                                    <totalFactura>150</totalFactura>
+                                    <totalProductos>3</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>sudadera</nombreProducto>
+                                        <referencia>ref-0w945876</referencia>
+                                        <precio>50</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>pantalon vaquero</nombreProducto>
+                                        <referencia>ref-84765387</referencia>
+                                        <precio>50</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>gorra vintage</nombreProducto>
+                                        <referencia>ref-87646</referencia>
+                                        <precio>50</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_14'>                     
+                            <infocliente>
+                                <nombre>marta</nombre>
+                                <apellidos>morales garcia</apellidos>
+                                <telefono>0986745636</telefono>
+                                <direccion>
+                                    <calle>avenida de la industria</calle>
+                                    <ciudad>humanes</ciudad>
+                                    <cp>765345</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>marta.morales@correo.es</correo>
+                                <fechaInclusion>21/12/2022</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_39'>
+                                <infoPedido>
+                                    <numPedido>879987423</numPedido>
+                                    <fechaCompra>13/02/2021</fechaCompra>
+                                    <totalFactura>300</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>vestido lunares blanco</nombreProducto>
+                                        <referencia>ref-5641498464</referencia>
+                                        <precio>150</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>vestido largo rojo</nombreProducto>
+                                        <referencia>ref-21894</referencia>
+                                        <precio>150</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_40'>
+                                <infoPedido>
+                                    <numPedido>6542346325</numPedido>
+                                    <fechaCompra>17/03/2022</fechaCompra>
+                                    <totalFactura>100</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>paleta de sombras nude</nombreProducto>
+                                        <referencia>ref-5467896231</referencia>
+                                        <precio>100</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre>
+            </trimestres>
+        </anyo2021>
+        <anyo2022 num='2022'>
+            <trimestres>
+                <trimestre id='TRIM__1'>
+                    <clientes>
+                        <cliente id='CL_1'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>ortiz martin</apellidos>
+                                <telefono>123456</telefono>
+                                <direccion>
+                                    <calle>lope de vega</calle>
+                                    <ciudad>alcorcon</ciudad>
+                                    <cp>28922</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.ortiz@correo.es</correo>
+                                <fechaInclusion>14/07/2018</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_41'>
+                                <infoPedido>
+                                    <numPedido>56857587</numPedido>
+                                    <fechaCompra>01/01/2022</fechaCompra>
+                                    <totalFactura>200</totalFactura>
+                                    <totalProductos>2</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>camiseta fc barcelona </nombreProducto>
+                                        <referencia>ref-4534</referencia>
+                                        <precio>150</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                    <producto>
+                                        <nombreProducto>pantalones fc barcelona</nombreProducto>
+                                        <referencia>ref-54544</referencia>
+                                        <precio>50</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_42'>
+                                <infoPedido>
+                                    <numPedido>554576</numPedido>
+                                    <fechaCompra>02/02/2022</fechaCompra>
+                                    <totalFactura>30</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>medias fc barcelona</nombreProducto>
+                                        <referencia>ref-34564</referencia>
+                                        <precio>30</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_15'>                     
+                            <infocliente>
+                                <nombre>lucas</nombre>
+                                <apellidos>Rodriguez Mayo</apellidos>
+                                <telefono>657463653</telefono>
+                                <direccion>
+                                    <calle>avenida poligono humanes</calle>
+                                    <ciudad>moraleja</ciudad>
+                                    <cp>28936</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>lucas.rodriguez@correo.es</correo>
+                                <fechaInclusion>17/01/2015</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_43'>
+                                <infoPedido>
+                                    <numPedido>14312313</numPedido>
+                                    <fechaCompra>21/02/2022</fechaCompra>
+                                    <totalFactura>109</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>mesa dj pioneer</nombreProducto>
+                                        <referencia>ref-23423</referencia>
+                                        <precio>109</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_44'>
+                                    <infoPedido>
+                                        <numPedido>576658</numPedido>
+                                        <fechaCompra>07/05/2021</fechaCompra>
+                                        <totalFactura>60</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>camiseta termica entrenamiento</nombreProducto>
+                                            <referencia>ref-7459</referencia>
+                                            <precio>60</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                </pedido>
+                                <pedido id='PD_45'>
+                                    <infoPedido>
+                                        <numPedido>56767567</numPedido>
+                                        <fechaCompra>09/08/2021</fechaCompra>
+                                        <totalFactura>35</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>Pantalon termico entrenamiento</nombreProducto>
+                                            <referencia>ref-86758</referencia>
+                                            <precio>35</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_16'>                     
+                            <infocliente>
+                                <nombre>Rauul</nombre>
+                                <apellidos>Rodeelgo Vazquez</apellidos>
+                                <telefono>6534563</telefono>
+                                <direccion>
+                                    <calle>Calle moraleja</calle>
+                                    <ciudad>Moraleja</ciudad>
+                                    <cp>28936</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>rauul.rodeelgo@correo.es</correo>
+                                <fechaInclusion>18/05/2022</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_46'>
+                                    <infoPedido>
+                                        <numPedido>5676567</numPedido>
+                                        <fechaCompra>09/08/2021</fechaCompra>
+                                        <totalFactura>35</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>Pantalon termico entrenamiento</nombreProducto>
+                                            <referencia>ref-86758</referencia>
+                                            <precio>35</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                </pedido>
+                                <pedido id='PD_47'>
+                                    <infoPedido>
+                                        <numPedido>57658</numPedido>
+                                        <fechaCompra>07/08/2021</fechaCompra>
+                                        <totalFactura>60</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>camiseta termica entrenamiento</nombreProducto>
+                                            <referencia>ref-7459</referencia>
+                                            <precio>60</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_17'>                     
+                            <infocliente>
+                                <nombre>Marcojs</nombre>
+                                <apellidos>Vazqujez garcia</apellidos>
+                                <telefono>8978687556</telefono>
+                                <direccion>
+                                    <calle>Calle go9ya</calle>
+                                    <ciudad>parque coimmbra</ciudad>
+                                    <cp>784856</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>marcos.vazqujez@correo.es</correo>
+                                <fechaInclusion>18/08/2021</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_48'>
+                                    <infoPedido>
+                                        <numPedido>09789678</numPedido>
+                                        <fechaCompra>12/12/2022</fechaCompra>
+                                        <totalFactura>500</totalFactura>
+                                        <totalProductos>3</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>capo tunned ford focus mk2</nombreProducto>
+                                            <referencia>ref-8756445</referencia>
+                                            <precio>300</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                        <producto>
+                                            <nombreProducto>recubre-volante</nombreProducto>
+                                            <referencia>ref-745656</referencia>
+                                            <precio>100</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                        <producto>
+                                            <nombreProducto>Palanca de cambios custom</nombreProducto>
+                                            <referencia>ref-8976532341</referencia>
+                                            <precio>100</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_18'>                     
+                            <infocliente>
+                                <nombre>Luciaa</nombre>
+                                <apellidos>Belloo Caballero</apellidos>
+                                <telefono>567646545</telefono>
+                                <direccion>
+                                    <calle>Avenida leganes</calle>
+                                    <ciudad>Leganesss</ciudad>
+                                    <cp>43656</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>luciia.bello@correo.es</correo>
+                                <fechaInclusion>09/08/2017</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_49'>
+                                    <infoPedido>
+                                        <numPedido>57648674646</numPedido>
+                                        <fechaCompra>20/02/2021</fechaCompra>
+                                        <totalFactura>100</totalFactura>
+                                        <totalProductos>2</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>Vestido corto negro </nombreProducto>
+                                            <referencia>ref-3456345</referencia>
+                                            <precio>50</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                        <producto>
+                                            <nombreProducto>chaqueta cuero</nombreProducto>
+                                            <referencia>ref-978687</referencia>
+                                            <precio>50</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                </pedido>
+                                <pedido id='PD_50'>
+                                    <infoPedido>
+                                        <numPedido>32356456</numPedido>
+                                        <fechaCompra>04/01/2019</fechaCompra>
+                                        <totalFactura>60</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>Balon oficial mundial brazil</nombreProducto>
+                                            <referencia>REF-7864</referencia>
+                                            <precio>60</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre>
+                <trimestre id='TRIM__2'>
+                    <clientes>
+                        <cliente id='CL_1'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>ortiz martin</apellidos>
+                                <telefono>123456</telefono>
+                                <direccion>
+                                    <calle>lope de vega</calle>
+                                    <ciudad>alcorcon</ciudad>
+                                    <cp>28922</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.ortiz@correo.es</correo>
+                                <fechaInclusion>14/07/2018</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_51'>
+                                <infoPedido>
+                                    <numPedido>5426653487</numPedido>
+                                    <fechaCompra>12/12/2020</fechaCompra>
+                                    <totalFactura>235</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>equipacion completa chelsea</nombreProducto>
+                                        <referencia>ref-547646</referencia>
+                                        <precio>235</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_52'>
+                                <infoPedido>
+                                    <numPedido>321423539</numPedido>
+                                    <fechaCompra>12/12/2020</fechaCompra>
+                                    <totalFactura>235</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>equipacion completa liverpool</nombreProducto>
+                                        <referencia>ref-547654646</referencia>
+                                        <precio>235</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_53'>
+                                <infoPedido>
+                                    <numPedido>8746435564</numPedido>
+                                    <fechaCompra>11/10/2021</fechaCompra>
+                                    <totalFactura>235</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>equipacion completa borussia</nombreProducto>
+                                        <referencia>ref-547871646</referencia>
+                                        <precio>235</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_2'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Perea Barrio</apellidos>
+                                <telefono>5646746744</telefono>
+                                <direccion>
+                                    <calle>Avenida boulevar</calle>
+                                    <ciudad>arroyomolinos</ciudad>
+                                    <cp>28938</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Daniel.perea@correo.es</correo>
+                                <fechaInclusion>05/01/2017</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_54'>
+                                <infoPedido>
+                                    <numPedido>12121212121212</numPedido>
+                                    <fechaCompra>25/09/2022</fechaCompra>
+                                    <totalFactura>35</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>Pantalon termico entrenamiento</nombreProducto>
+                                        <referencia>ref-86758</referencia>
+                                        <precio>35</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_55'>
+                                <infoPedido>
+                                    <numPedido>131313131313</numPedido>
+                                    <fechaCompra>30/12/2022</fechaCompra>
+                                    <totalFactura>109</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>mesa dj pioneer</nombreProducto>
+                                        <referencia>ref-23423</referencia>
+                                        <precio>109</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_19'>                     
+                            <infocliente>
+                                <nombre>Lucia</nombre>
+                                <apellidos>Duran Barrio</apellidos>
+                                <telefono>453653566</telefono>
+                                <direccion>
+                                    <calle>Calle sanse</calle>
+                                    <ciudad>San sebastian de los reyes</ciudad>
+                                    <cp>74365356</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>lucia.duran@correo.es</correo>
+                                <fechaInclusion>12/12/2020</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_56'>
+                                <infoPedido>
+                                    <numPedido>848452</numPedido>
+                                    <fechaCompra>06/06/2022</fechaCompra>
+                                    <totalFactura>235</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>equipacion completa liverpool</nombreProducto>
+                                        <referencia>ref-547654646</referencia>
+                                        <precio>235</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_57'>
+                                <infoPedido>
+                                    <numPedido>455528</numPedido>
+                                    <fechaCompra>25/07/2021</fechaCompra>
+                                    <totalFactura>235</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>equipacion completa athletic</nombreProducto>
+                                        <referencia>ref-54765454646</referencia>
+                                        <precio>235</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_20'>                     
+                            <infocliente>
+                                <nombre>Luccia</nombre>
+                                <apellidos>Duran Barrio</apellidos>
+                                <telefono>45366553566</telefono>
+                                <direccion>
+                                    <calle>Calle sanses</calle>
+                                    <ciudad>San sebastian de los reyes</ciudad>
+                                    <cp>74365356</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>luccia.duran@correo.es</correo>
+                                <fechaInclusion>10/12/2020</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_58'>
+                                    <infoPedido>
+                                        <numPedido>8485452</numPedido>
+                                        <fechaCompra>02/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa bayern</nombreProducto>
+                                            <referencia>ref-54765764646</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                                <pedido id='PD_59'>
+                                    <infoPedido>
+                                        <numPedido>8486565452</numPedido>
+                                        <fechaCompra>18/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa eintrach</nombreProducto>
+                                            <referencia>ref-5467546</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_21'>                     
+                            <infocliente>
+                                <nombre>Lucas</nombre>
+                                <apellidos>garcia Barrio</apellidos>
+                                <telefono>45353566</telefono>
+                                <direccion>
+                                    <calle>Calle sansesastian</calle>
+                                    <ciudad>San sebastian de los reyes</ciudad>
+                                    <cp>74365356</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>lucas.garcia@correo.es</correo>
+                                <fechaInclusion>05/12/2020</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_60'>
+                                    <infoPedido>
+                                        <numPedido>7643541540</numPedido>
+                                        <fechaCompra>02/01/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa psg</nombreProducto>
+                                            <referencia>ref-046</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre>
+                <trimestre id='TRIM__3'>
+                    <clientes>
+                        <cliente id='CL_1'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>ortiz martin</apellidos>
+                                <telefono>123456</telefono>
+                                <direccion>
+                                    <calle>lope de vega</calle>
+                                    <ciudad>alcorcon</ciudad>
+                                    <cp>28922</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.ortiz@correo.es</correo>
+                                <fechaInclusion>14/07/2018</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_61'>
+                                <infoPedido>
+                                    <numPedido>8655658</numPedido>
+                                    <fechaCompra>22/01/2022</fechaCompra>
+                                    <totalFactura>235</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>equipacion completa leizpig</nombreProducto>
+                                        <referencia>ref-5764646</referencia>
+                                        <precio>235</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                                <pedido id='PD_62'>
+                                <infoPedido>
+                                    <numPedido>8765786123</numPedido>
+                                    <fechaCompra>02/02/2020</fechaCompra>
+                                    <totalFactura>235</totalFactura>
+                                    <totalProductos>1</totalProductos>
+                                </infoPedido>
+                                <productos>
+                                    <producto>
+                                        <nombreProducto>equipacion completa nize</nombreProducto>
+                                        <referencia>ref-544646</referencia>
+                                        <precio>235</precio>
+                                        <unidades>1</unidades>
+                                    </producto>
+                                </productos>
+                                </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_2'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Perea Barrio</apellidos>
+                                <telefono>5646746744</telefono>
+                                <direccion>
+                                    <calle>Avenida boulevar</calle>
+                                    <ciudad>arroyomolinos</ciudad>
+                                    <cp>28938</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Daniel.perea@correo.es</correo>
+                                <fechaInclusion>05/01/2017</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_63'>
+                                    <infoPedido>
+                                        <numPedido>123248739</numPedido>
+                                        <fechaCompra>03/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa betis</nombreProducto>
+                                            <referencia>ref-54764646</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                                <pedido id='PD_64'>
+                                    <infoPedido>
+                                        <numPedido>848452</numPedido>
+                                        <fechaCompra>02/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa numancia</nombreProducto>
+                                            <referencia>ref-54776464</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                                <pedido id='PD_65'>
+                                    <infoPedido>
+                                        <numPedido>8452</numPedido>
+                                        <fechaCompra>02/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa alaves</nombreProducto>
+                                            <referencia>ref-5764640</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_22'>
+                            <infocliente>
+                                <nombre>Luccia5</nombre>
+                                <apellidos>Duran Barrio</apellidos>
+                                <telefono>4553566</telefono>
+                                <direccion>
+                                    <calle>Calle sansa</calle>
+                                    <ciudad>San sebastian de las reinas</ciudad>
+                                    <cp>7465356</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>luccia5.duran@correo.es</correo>
+                                <fechaInclusion>10/11/2020</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_66'>
+                                    <infoPedido>
+                                        <numPedido>8485452</numPedido>
+                                        <fechaCompra>02/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa celta</nombreProducto>
+                                            <referencia>ref-04765764646</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_23'>                     
+                            <infocliente>
+                                <nombre>sergio2</nombre>
+                                <apellidos>rodriguez</apellidos>
+                                <telefono>68542525</telefono>
+                                <direccion>
+                                    <calle>Calle loranca</calle>
+                                    <ciudad>loranca</ciudad>
+                                    <cp>858745</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>sergio2.rodriguez@correo.es</correo>
+                                <fechaInclusion>23/09/2022</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_67'>
+                                    <infoPedido>
+                                        <numPedido>052</numPedido>
+                                        <fechaCompra>02/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa sayans</nombreProducto>
+                                            <referencia>ref-1646</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                                <pedido id='PD_68'>
+                                    <infoPedido>
+                                        <numPedido>6485452</numPedido>
+                                        <fechaCompra>08/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa aniquiladores</nombreProducto>
+                                            <referencia>ref-65764646</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_24'>                     
+                            <infocliente>
+                                <nombre>sergio3</nombre>
+                                <apellidos>rodriguez</apellidos>
+                                <telefono>6854525</telefono>
+                                <direccion>
+                                    <calle>Calle loranca</calle>
+                                    <ciudad>loranca</ciudad>
+                                    <cp>858745</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>sergio3.rodriguez@correo.es</correo>
+                                <fechaInclusion>24/09/2022</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_69'>
+                                    <infoPedido>
+                                        <numPedido>053</numPedido>
+                                        <fechaCompra>03/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa porcinos</nombreProducto>
+                                            <referencia>ref-1446</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                                <pedido id='PD_70'>
+                                    <infoPedido>
+                                        <numPedido>054</numPedido>
+                                        <fechaCompra>05/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa el barrio</nombreProducto>
+                                            <referencia>ref-146</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre>
+                <trimestre44 id='TRIM__4'>
+                    <clientes>
+                        <cliente id='CL_1'>                     
+                            <infocliente>
+                                <nombre>David</nombre>
+                                <apellidos>ortiz martin</apellidos>
+                                <telefono>123456</telefono>
+                                <direccion>
+                                    <calle>lope de vega</calle>
+                                    <ciudad>alcorcon</ciudad>
+                                    <cp>28922</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>David.ortiz@correo.es</correo>
+                                <fechaInclusion>14/07/2018</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_71'>
+                                    <infoPedido>
+                                        <numPedido>058</numPedido>
+                                        <fechaCompra>08/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa 1k</nombreProducto>
+                                            <referencia>ref-196</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                                <pedido id='PD_72'>
+                                    <infoPedido>
+                                        <numPedido>056</numPedido>
+                                        <fechaCompra>07/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa kuni</nombreProducto>
+                                            <referencia>ref-46</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                                <pedido id='PD_73'>
+                                    <infoPedido>
+                                        <numPedido>059</numPedido>
+                                        <fechaCompra>09/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa pio</nombreProducto>
+                                            <referencia>ref-149</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_2'>                     
+                            <infocliente>
+                                <nombre>Daniel</nombre>
+                                <apellidos>Perea Barrio</apellidos>
+                                <telefono>5646746744</telefono>
+                                <direccion>
+                                    <calle>Avenida boulevar</calle>
+                                    <ciudad>arroyomolinos</ciudad>
+                                    <cp>28938</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>Daniel.perea@correo.es</correo>
+                                <fechaInclusion>05/01/2017</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_74'>
+                                    <infoPedido>
+                                        <numPedido>058</numPedido>
+                                        <fechaCompra>01/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa xbuyer</nombreProducto>
+                                            <referencia>ref-148</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                                <pedido id='PD_75'>
+                                    <infoPedido>
+                                        <numPedido>057</numPedido>
+                                        <fechaCompra>07/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa ultimate mostoles</nombreProducto>
+                                            <referencia>ref-147</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_25'>                     
+                            <infocliente>
+                                <nombre>sergio5</nombre>
+                                <apellidos>rodriguez</apellidos>
+                                <telefono>684525</telefono>
+                                <direccion>
+                                    <calle>Calle loranca</calle>
+                                    <ciudad>loranca</ciudad>
+                                    <cp>858745</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>sergio5.rodriguez@correo.es</correo>
+                                <fechaInclusion>25/09/2022</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_76'>
+                                    <infoPedido>
+                                        <numPedido>050</numPedido>
+                                        <fechaCompra>01/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa troncos</nombreProducto>
+                                            <referencia>ref-14000</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_26'>                     
+                            <infocliente>
+                                <nombre>sergio6</nombre>
+                                <apellidos>rodriguez</apellidos>
+                                <telefono>684525</telefono>
+                                <direccion>
+                                    <calle>Calle loranca</calle>
+                                    <ciudad>loranca</ciudad>
+                                    <cp>858745</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>sergio6.rodriguez@correo.es</correo>
+                                <fechaInclusion>26/09/2022</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_77'>
+                                    <infoPedido>
+                                        <numPedido>05000</numPedido>
+                                        <fechaCompra>08/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa sevilla</nombreProducto>
+                                            <referencia>ref-14000000</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                                <pedido id='PD_78'>
+                                    <infoPedido>
+                                        <numPedido>0506666</numPedido>
+                                        <fechaCompra>12/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa valencia</nombreProducto>
+                                            <referencia>ref-1406600</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                            </pedidos>
+                        </cliente>
+                        <cliente id='CL_27'>                     
+                            <infocliente>
+                                <nombre>sergio7</nombre>
+                                <apellidos>rodriguez</apellidos>
+                                <telefono>68777525</telefono>
+                                <direccion>
+                                    <calle>Calle loranca</calle>
+                                    <ciudad>loranca</ciudad>
+                                    <cp>858745</cp>
+                                    <provincia>Madrid</provincia>
+                                </direccion>
+                                <correo>sergio7.rodriguez@correo.es</correo>
+                                <fechaInclusion>27/09/2022</fechaInclusion>
+                            </infocliente>
+                             <pedidos>
+                                <pedido id='PD_79'>
+                                    <infoPedido>
+                                        <numPedido>077700</numPedido>
+                                        <fechaCompra>07/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa alcorcon</nombreProducto>
+                                            <referencia>ref-17777000</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                                <pedido id='PD_80'>
+                                    <infoPedido>
+                                        <numPedido>088880</numPedido>
+                                        <fechaCompra>09/06/2022</fechaCompra>
+                                        <totalFactura>235</totalFactura>
+                                        <totalProductos>1</totalProductos>
+                                    </infoPedido>
+                                    <productos>
+                                        <producto>
+                                            <nombreProducto>equipacion completa ibiza</nombreProducto>
+                                            <referencia>ref-199888990000</referencia>
+                                            <precio>235</precio>
+                                            <unidades>1</unidades>
+                                        </producto>
+                                    </productos>
+                                    </pedido>
+                            </pedidos>
+                        </cliente>
+                    </clientes>
+                </trimestre44>
+            </trimestres>
+        </anyo2022>
+        </anyos>
+        </facturacion>
